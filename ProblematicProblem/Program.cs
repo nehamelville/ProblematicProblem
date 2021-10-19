@@ -17,7 +17,6 @@ namespace ProblematicProblem
             string cont = "";
             do
             {
-
                 Console.Write("Hello, welcome to the random activity generator! \nWould you like to generate a random activity? yes/no: ");
                 cont = (Console.ReadLine());
                 if (cont.ToLower() != "yes")
@@ -57,7 +56,6 @@ namespace ProblematicProblem
                     {
                         do
                         {
-
                             Console.WriteLine();
 
                             Console.Write("What would you like to add? ");
@@ -76,8 +74,6 @@ namespace ProblematicProblem
                             addToList = Console.ReadLine();
                         } while (addToList.ToLower() == "yes");
                     }
-
-
 
                 }
 
@@ -132,13 +128,7 @@ namespace ProblematicProblem
                 }
 
             } while (cont.ToLower()=="redo");
-                //}
-               // else
-                   // Console.WriteLine("You are exiting the program");
-
-
-           
-            
+                                     
         }
     }
 }
